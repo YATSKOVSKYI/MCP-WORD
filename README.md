@@ -25,7 +25,7 @@
 ## 🚀 Запуск
 
 ```bash
-node index.js
+node server.js
 ```
 
 При запуске сервер готов принимать JSON-команды через `stdin` и ответит JSON-объектом в `stdout`.
@@ -39,7 +39,7 @@ node index.js
   "mcpServers": {
     "word-server": {
       "command": "node",
-      "args": ["index.js"],
+      "args": ["server.js"],
       "env": {},
       "disabled": false,
       "autoApprove": [
