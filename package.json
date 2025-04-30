@@ -1,0 +1,16 @@
+{
+  "name": "mcp-word",
+  "version": "1.0.0",
+  "description": "**MCP Word Server** — это простой CLI-сервер на Node.js, реализующий Model Context Protocol (MCP) для создания и управления документами Microsoft Word (формат `.docx`). С помощью JSON-команд, отправленных через стандартный ввод/вывод, можно:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^9.4.1"
+  }
+}
